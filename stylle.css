@@ -1,0 +1,88 @@
+h1{
+    width: 35%;
+    height: 20%;
+    border-radius: 100% 0% 54% 46% / 0% 100% 0% 100%;
+    background-color: darkgrey;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+form{
+    border: solid 1px black;
+    margin-top: 20px;
+    width: 60%;
+    margin: auto;
+    background-color: blueviolet;
+}
+fieldset,legend{
+    border-radius: 50px;
+}
+fieldset{
+    background-color: aqua;
+  margin: -15px -2px -2px -2px;
+}
+label ,textarea{
+    display: block;
+    margin: auto;
+}
+legend{ 
+    padding: 5px;
+    background-color: blueviolet;
+    border: solid 1px black;
+    margin-left: 20px;
+}
+label{
+    width: 40%;
+    border: solid 1px red;
+    background-color: red;
+    text-align: left;
+    margin-top: 10px;
+}
+input:not(.a){
+    display: block;
+    width: 39%;
+    text-align: left;
+    border: solid 3px black;
+    border-top-style: none ;
+    margin: auto;
+}
+textarea{
+    width: 40%;
+    resize: none;
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    border-radius: 100% 0% 100% 0% / 13% 100% 0% 87%;
+    margin-left: 236px;
+}
+input[type="reset"]{
+    border-radius: 100% 0% 100% 0% / 0% 88% 12% 100%;
+}
+input[type="submit"],input[type="reset"]{
+    display: inline-block;
+    border: solid 1px black;
+    background-color: orangered;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+
+}
+input::placeholder{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
